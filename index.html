@@ -9,18 +9,169 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
         crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
 
     <title>Hello, world!</title>
+
+    <style>
+        html {
+            position: relative;
+            min-height: 100%;
+        }
+
+        body {
+            background-image: url("images/whirlpool.png");
+        }
+
+        h1 {
+            color: #4aaaa5;
+        }
+
+        nav {
+            background-color: white;
+
+        }
+
+        .navbar {
+            padding: 0;
+             
+
+        }
+        
+        .nav-link {
+            color: gray!important ;
+            
+        }
+
+        #nav-container {
+            margin-top: 0;
+            padding-left: 0;
+            font-family: Georgia, Times, "Times New Roman", serif;
+        }
+
+        .name {
+            background-color: #4aaaa5;
+            color: white !important;
+            padding: 15px 30px 15px 30px;
+            font-weight: bold;
+            font-size: 22px;
+
+        }
+
+
+        .container {
+            margin-top: 3%;
+        }
+
+        #body-container {
+            background-color: white;
+            padding-bottom: 14%;
+        }
+
+        #content-header {
+            margin-top: 2%;
+            font-family: Georgia, Times, "Times New Roman", serif;
+        }
+        img {
+            height: 100%;
+            width: 1000px;
+        }
+        #text-space {
+            margin-top: 5px;
+        }
+
+        /* .img-fluid {
+            max-width: 80%;
+            height: 80%;
+            
+        } */
+
+        /* #img-size {
+            border: solid 1px green;
+            height: 
+        } */
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            /* Set the fixed height of the footer here */
+            height: 60px;
+            line-height: 10px;
+            /* Vertically center the text there */
+            background-color: #777;
+            color: white !important;
+        }
+
+        #footer-color {
+            border-top: 7px solid #4aaaa5 !important;
+            padding-top: 20px;
+            font-size: 12px;
+        }
+
+        #footer-container {
+            margin-top: 0 !important;
+        }
+
+
+        /* body { */
+
+        /* font-family: ‘Arial’, ‘Helvetica Neue’, Helvetica, sans-serif;
+            background: url(‘images/grey_background.jpg’);
+            margin-bottom: 60px; */
+
+        /* Margin bottom by footer height */
+
+        /* .bg-primary {
+            background-color: #4aaaa5 !important;
+        } */
+
+        /* #myname {
+
+            font-family: ‘Times New Roman’, ‘Georgia’, Times, serif;
+            font-size: 25px;
+            font-weight: bold;
+
+        } */
+
+        /* #profile {
+ 
+            height: 25%;
+            width: 15%;
+  */
+
+        /* .text-secondary {
+ 
+            color: #4aaaa5 !important;
+            font-weight: bold;
+            font-size: 25px;
+        }
+  */
+
+        /*  
+        .bg-dark {
+ 
+            background-color: #666666 !important;
+        } 
+ 
+        #content {
+ 
+            /* margin-left: 13%; */
+
+        /* .border-bottom {
+
+            border-width: 3px !important;
+        } */
+    </style>
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light border-top">
-        
-            <a class="navbar-brand mx-auto" href="index.html">John Lombard</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-                aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div id="nav-container" class="container">
+            <a class="navbar-brand mx-auto name" href="index.html">John Lombard</a>
+            <button class="navbar-toggler float-md-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+                aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
@@ -41,30 +192,35 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div id="body-container" class="container">
         <div class="row">
-            <div class="col">
+            <div id="content-header" class="col">
                 <h1>About me</h1>
             </div>
         </div>
 
         <hr>
         <div class="row">
-            <div class="col-sm-3">
-                <img src="http://via.placeholder.com/220x150" alt="">
+            <div class="col-sm-12 col-md-4">
+                <img src="images/johnlombard.jpg" class="img-fluid img-responsive" id="img-size" alt="John smiling">
             </div>
-            <div class="col-lg">
+            <div class="col-sm-12 col-md-8">
                 <p>Lorem ipsum dolor amet fingerstache yr actually wolf readymade shoreditch tumblr bushwick hella biodiesel
                     microdosing hashtag chartreuse sriracha. Shabby chic kogi shoreditch seitan plaid lomo chartreuse paleo
                     organic mlkshk activated charcoal. Hammock lyft deep v whatever stumptown selvage, try-hard affogato
+                    keffiyeh trust fund ramps enamel pin four dollar toast. Hammock lyft deep v whatever stumptown selvage, try-hard affogato
+                    keffiyeh trust fund ramps enamel pin four dollar toast.Hammock lyft deep v whatever stumptown selvage, try-hard affogato
+                    keffiyeh trust fund ramps enamel pin four dollar toast. Hammock lyft deep v whatever stumptown selvage, try-hard affogato
+                    keffiyeh trust fund ramps enamel pin four dollar toast. Hammock lyft deep v whatever stumptown selvage, try-hard affogato
+                    keffiyeh trust fund ramps enamel pin four dollar toast.Hammock lyft deep v whatever stumptown selvage, try-hard affogato
                     keffiyeh trust fund ramps enamel pin four dollar toast. </p>
             </div>
 
         </div>
-        <br>
+        
         <div class="row">
             <div class="col">
-                <p>Lorem ipsum dolor amet fingerstache yr actually wolf readymade shoreditch tumblr bushwick hella biodiesel
+                <p id="text-space">Lorem ipsum dolor amet fingerstache yr actually wolf readymade shoreditch tumblr bushwick hella biodiesel
                     microdosing hashtag chartreuse sriracha. Shabby chic kogi shoreditch seitan plaid lomo chartreuse paleo
                     organic mlkshk activated charcoal. Hammock lyft deep v whatever stumptown selvage, try-hard affogato
                     keffiyeh trust fund ramps enamel pin four dollar toast. </p>
@@ -72,13 +228,11 @@
         </div>
     </div>
 
-  
-    <footer>
-    <div class="card text-center">
-            <div class="card-footer text-muted">
-              2 days ago
-            </div>
-          </div>
+
+    <footer id="footer-color" class="footer">
+        <div id="footer-container" class="container">
+            <span>Copyright</span>
+        </div>
     </footer>
 
 
@@ -86,14 +240,14 @@
 
 
 
-        <!-- Optional JavaScript -->
-        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
